@@ -6,7 +6,7 @@ def nl(a):
         print('\n')
 
 
-
+print('Hi')
 
 '''
 cnt=0
