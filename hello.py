@@ -5,8 +5,36 @@ def nl(a):
     for i in range(a):
         print('\n')
 
+class fruit:
+    color='red'
+    def taste(self):
+        return 'delicious'
 
-print('Hi')
+apple=fruit()
+print(apple.color)
+print(apple.taste())
+
+'''
+print('나이: ')
+
+while(1):
+    try:
+        age=int(input())
+    except:
+        continue
+
+    break
+'''
+
+'''
+test='grape'
+test2=type(test)
+
+if(str(test2)=="<class 'str'>"):
+    print('string')
+elif(str(test2)=="<class 'int'>"):
+    print('integer')
+'''
 
 '''
 cnt=0
